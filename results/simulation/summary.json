@@ -1,0 +1,85 @@
+{
+  "baseline": {
+    "censoring": "Uniform(0, 60.0)",
+    "distribution": "Weibull",
+    "scale": 24.0,
+    "shape": 1.3
+  },
+  "cox_recovery": {
+    "censored_fraction_single": 0.31933333333333336,
+    "n_single": 3000,
+    "repeated": {
+      "coverage": {
+        "auto_pay": 0.95,
+        "month_to_month": 0.9533333333333334,
+        "monthly_spend": 0.94,
+        "support_calls": 0.9366666666666666
+      },
+      "max_abs_bias": 0.012096875310293131,
+      "n_per_rep": 600,
+      "reps": 300
+    },
+    "single_fit": {
+      "auto_pay": {
+        "ci": [
+          0.5475522538143541,
+          0.6571808310607427
+        ],
+        "hr": 0.5998673563471344,
+        "true_hr": 0.6065306597126334
+      },
+      "month_to_month": {
+        "ci": [
+          2.1066909061455514,
+          2.533789906997795
+        ],
+        "hr": 2.310392208079753,
+        "true_hr": 2.45960311115695
+      },
+      "monthly_spend": {
+        "ci": [
+          1.2289049632122733,
+          1.3413541163560503
+        ],
+        "hr": 1.2838990345876746,
+        "true_hr": 1.2840254166877414
+      },
+      "support_calls": {
+        "ci": [
+          1.3641337477322326,
+          1.4840738325635596
+        ],
+        "hr": 1.422840538896143,
+        "true_hr": 1.4190675485932571
+      }
+    }
+  },
+  "greenwood_coverage": {
+    "coverage_by_time": {
+      "S=0.3": 0.95,
+      "S=0.5": 0.952,
+      "S=0.75": 0.952,
+      "S=0.9": 0.968
+    },
+    "mc_error_95": 0.019103716915825568,
+    "n": 300,
+    "reps": 500
+  },
+  "km_recovery": {
+    "censored_fraction": 0.35550000000000004,
+    "max_abs_deviation": 0.029963827302966956,
+    "n": 2000,
+    "n_events": 1289
+  },
+  "logrank_calibration": {
+    "n_per_group": 150,
+    "power": {
+      "1.3": 0.476,
+      "1.6": 0.927
+    },
+    "reps_null": 2000,
+    "type1_error": 0.0605,
+    "type1_error_n400": 0.05
+  },
+  "seed": 2026
+}

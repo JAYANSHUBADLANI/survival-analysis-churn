@@ -1,0 +1,5 @@
+comparison,chi2,df,p
+all contract types,2352.8725382593393,2,0.0
+Month-to-month vs One year,926.0645586243712,1,2.1173266936003702e-203
+Month-to-month vs Two year,1550.5103068768387,1,0.0
+One year vs Two year,256.217766805607,1,1.145448331985692e-57

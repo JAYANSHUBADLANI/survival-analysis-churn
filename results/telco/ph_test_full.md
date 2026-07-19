@@ -1,0 +1,9 @@
+| covariate         | chi2     | df | p         |
+| ----------------- | -------- | -- | --------- |
+| one_year_contract | 94.45    | 1  | 2.518e-22 |
+| two_year_contract | 33.61    | 1  | 6.74e-09  |
+| fiber_optic       | 31.06    | 1  | 2.506e-08 |
+| electronic_check  | 0.006179 | 1  | 0.9373    |
+| senior_citizen    | 1.157    | 1  | 0.2822    |
+| paperless_billing | 1.283    | 1  | 0.2574    |
+| GLOBAL            | 138.8    | 6  | 1.765e-27 |

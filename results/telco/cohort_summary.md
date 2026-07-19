@@ -1,0 +1,3 @@
+| n_raw | n_dropped_zero_tenure | n    | n_events | censored_fraction | median_followup_months_reverse_km | max_followup_months |
+| ----- | --------------------- | ---- | -------- | ----------------- | --------------------------------- | ------------------- |
+| 7043  | 11                    | 7032 | 1869     | 0.7342            | 44                                | 72                  |
