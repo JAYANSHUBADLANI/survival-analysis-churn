@@ -1,5 +1,7 @@
 # survival-analysis-churn
 
+[![tests](https://github.com/JAYANSHUBADLANI/survival-analysis-churn/actions/workflows/tests.yml/badge.svg)](https://github.com/JAYANSHUBADLANI/survival-analysis-churn/actions/workflows/tests.yml)
+
 Survival analysis for customer churn, implemented from scratch in NumPy/SciPy, no `lifelines`, no `scikit-survival`. The point is the statistical machinery: the Kaplan-Meier estimator with Greenwood variance, the k-sample log-rank test, Cox proportional hazards fitted by Newton-Raphson on the Efron partial likelihood, and proportional-hazards diagnostics via scaled Schoenfeld residuals. Everything is validated two ways: against simulations with known ground truth, and on the IBM Telco Customer Churn dataset. All numbers below are produced by the committed code and live in `results/`.
 
 ## Why survival analysis (and why ordinary regression fails)
